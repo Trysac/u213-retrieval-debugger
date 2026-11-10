@@ -1,0 +1,16 @@
+# retrieval-debugger
+
+> Explain why a document was or was not retrieved for a query: its rank against the cutoff, per-term exact, accent and stem matches, missing terms and terms cut off by chunking Python package `trysac-retrieval-debugger`, import name `retrieval_debugger`, MIT licensed,
+> Python >= 3.10, no runtime dependencies.
+
+## Docs
+
+- [README](README.md): problem, install, usage example
+- [AGENTS](AGENTS.md): commands, folder map, conventions, limits
+- [Architecture](docs/ARCHITECTURE.md): shape of the package and its public API
+- [Testing](docs/TESTING.md): how to run and extend the tests
+
+## Optional
+
+- [Stack](docs/STACK.md): tools used and discarded
+- [Changelog](CHANGELOG.md): release history
