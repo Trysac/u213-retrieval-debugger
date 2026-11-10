@@ -1,16 +1,20 @@
 # retrieval-debugger
 
-> Explain why a document was or was not retrieved for a query: its rank against the cutoff, per-term exact, accent and stem matches, missing terms and terms cut off by chunking Python package `trysac-retrieval-debugger`, import name `retrieval_debugger`, MIT licensed,
-> Python >= 3.10, no runtime dependencies.
+> Explain why a document was or was not retrieved for a query: its rank against
+> the cutoff, per-term exact, accent and stem matches, missing terms and terms
+> cut off by chunking. Python distribution `trysac-retrieval-debugger`, import
+> name `retrieval_debugger`, version 0.1.0, MIT licensed, Python >= 3.10, no
+> runtime third-party dependencies.
 
 ## Docs
 
-- [README](README.md): problem, install, usage example
-- [AGENTS](AGENTS.md): commands, folder map, conventions, limits
-- [Architecture](docs/ARCHITECTURE.md): shape of the package and its public API
-- [Testing](docs/TESTING.md): how to run and extend the tests
+- [README](README.md): problem, installation, usage example, API and limits
+- [Project](docs/PROJECT.md): objective, scope and out-of-scope
+- [Architecture](docs/ARCHITECTURE.md): package shape and public API
+- [Security](docs/SECURITY.md): threat model and enforced limits
+- [Testing](docs/TESTING.md): tests that exist and what they cover
+- [Stack](docs/STACK.md): tools used and discarded
 
 ## Optional
 
-- [Stack](docs/STACK.md): tools used and discarded
-- [Changelog](CHANGELOG.md): release history
+- [Project record](docs/PROJECT.md): timeline and effort metrics
