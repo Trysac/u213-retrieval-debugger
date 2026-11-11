@@ -9,4 +9,5 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Added `retrieval-debugger`, a dependency-free utility that explains whether a document was retrieved for a query, covering rank, cutoff, exact/accent/stem term matches, missing terms, and chunk boundaries.
 - Initial project structure from the factory utility template.
